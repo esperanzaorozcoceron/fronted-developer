@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamiento</title>
+    <style>
+        .container{
+            width: 200px;
+            height: 200px;
+            background: papayawhip;
+            position: relative; /*establece que la posición de un elemento depende de otro. */
+            top: 20px;
+        }
+        .item{
+            width: 20px;
+            height: 20px;
+            background: hotpink;
+            position: absolute; /* indica que la posición de un elemento no depende de otro. el position absolute se adhiere al elemento contenedor relativo mas cercano*/
+        }
+        nav {
+            width: 20px;
+            height: 20px;
+            background: cyan;
+            position: fixed; /*el fixed nos permite deejarlo fijo*/
+
+        }
+        ul p {
+            position: sticky; /*este tipo de position sticky nos permite pegar aderir a la parte superior*/
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="item"></div>
+    <nav></nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit voluptate dolorem, repudiandae nam ea necessitatibus tempore adipisci a laudantium numquam, laborum totam ex quod natus nihil amet? Ut, quasi?</p>
+    <ul>
+        <p>frutas</p>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>sandia</li>
+    </ul>
+    <ul>
+        <p>frutas</p>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>sandia</li>
+    </ul> <ul>
+        <p>frutas</p>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>sandia</li>
+    </ul> <ul>
+        <p>frutas</p>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>sandia</li>
+    </ul> <ul>
+        <p>frutas</p>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>sandia</li>
+    </ul> <ul>
+        <p>frutas</p>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>sandia</li>
+    </ul>
+</body>
+</html>

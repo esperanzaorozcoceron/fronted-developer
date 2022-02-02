@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            width: 800px;
+            height: 800px;
+            background: papayawhip;
+            border-radius: 20px;
+            overflow: hidden; /*esta propiedad nos permite esconder todo lo que se salga de nuestro contenedor*/
+        }
+        .card img{
+            width: 100%;
+
+        }
+        .card p {
+            text-align: center;
+        }
+        .card p:nth-child(2){ /*el nth child lo que hace es contar los hijos*/
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1573324/pexels-photo-1573324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="cat">
+            <p>Cat: Mimi</p>
+            <p>love</p>
+        </div>
+    </section>
+</body>
+</html>
